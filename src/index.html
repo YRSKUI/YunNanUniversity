@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/dist/output.css" rel="stylesheet">
+  <title>YunNanUniversity</title>
+    <script src="js/index.js"></script>
+</head>
+
+<body class="bg-white min-w-[1360px] m-0 p-0">
+    <div id="bg" style="background: url('../src/images/bg-1.png') center 18px no-repeat;background-size: 100%">
+
+        <div id="bgc" style="background: url('../src/images/bg1.jpg') bottom center no-repeat;background-size: 100%">
+
+            <!-- Top-bar -->
+
+            <div class="h-[65px] bg-[#044f9f] flex">
+                <div class=" w-[1200px] mx-auto  justify-between flex text-white">
+<!--                     左-->
+                    <div class="h-full w-[400px] flex">
+                        <div id="date" class="h-full text-[18px] leading-[65px]"></div>
+                        <div class="h-full text-[17px] leading-[65px]"><a href="#">&nbsp;校历</a></div>
+                    </div>
+<!--                    右-->
+                    <div class="h-full w-[600px] text-[20px] flex leading-[65px] flex-row-reverse">
+
+                        <div class="flex items-center" >
+                            <input class="text h-[37px] w-[195px] bg-[#3672B2] outline-none text-[12px] px-[7px] placeholder-white" placeholder="输入关键字...">
+                            <input class="bg-[#5E8EC1]" type="image"  src="../src/images/search-icon.png">
+                        </div>
+                        <div class="h-full w-[60px]"></div>
+                        <div class="h-full text-[17px] leading-[65px]"><a href="#">手机版</a></div>
+                        &nbsp;丨&nbsp;
+                        <div class="h-full text-[17px] leading-[65px]"><a href="#">ENGLISH</a></div>
+                        &nbsp;丨&nbsp;
+                        <div class="h-full text-[17px] leading-[65px]"><a href="#">中文版</a></div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Header -->
+            <div class="h-[395px] w-[1200px] my-[46px] mx-auto">
+                <div class="h-[115px] w-[1200px] mx-auto flex">
+                    <div><a href="#"><img src="images/LOGO-2022.png" alt=""></a>
+                    </div>
+                    <div class="w-[20px]"></div>
+                    <div class="w-[570px] mt-[7px] text-[22px]">
+                        <ul class=" flex justify-evenly flex-wrap">
+                            <li class="w-[114px] h-[44px] my-[5px] relative z-10">
+                                <a class="block text-center leading-[44px]" href="#">云大首页</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F]"></div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-10">
+                                <a class="block text-center leading-[44px]" href="#">云大新闻</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-10">
+                                <a class="block text-center leading-[44px]" href="#">学校概况</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] h-[308px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">学校简介</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">历史沿革</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">现任领导</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">历任领导</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">大学章程</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">识别云大</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">全景云大</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-10">
+                                <a class="block text-center leading-[44px]" href="#">机构设置</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px]  hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">职能部门</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">教学科研单位</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">直属附属单位</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-10">
+                                <a class="block text-center leading-[44px]" href="#">师资队伍</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">师资概况</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">人才引进与招聘</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">人才风采</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-0">
+                                <a class="block text-center leading-[44px]" href="#">人才培养</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] h-[308px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">本科生培养</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">研究生培养</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">国际学生培养</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">继续教育培养</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-0">
+                                <a class="block text-center leading-[44px]" href="#">科学研究</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">自然科学研究</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">社会科学研究</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">学术期刊</a></li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-0">
+                                <a class="block text-center leading-[44px]" href="#">招生就业</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">本科生招生</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">研究生招生</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">国际学生招生</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">继续教育学生招生</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">就业工作</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-0">
+                                <a class="block text-center leading-[44px]" href="#">合作交流</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">合作交流</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">国际交流</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="group w-[114px] h-[44px] my-[5px]  relative z-0">
+                                <a class="block text-center leading-[44px]" href="#">校园生活</a>
+                                <div class="absolute inset-x-[20%] bottom-0 h-[2px] bg-[#044F9F] opacity-0 group-hover:opacity-100"></div>
+                                <div class="w-[114px] hidden group-hover:block">
+                                    <ul class="absolute top-[44px]">
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">团学活动</a></li>
+                                        <li class="block w-[114px] h-[44px] bg-[#5E8EC1] hover:bg-[#006AAA] text-center"><a class=" text-white text-[14px]   w-[144px] h-[144px] leading-[44px] " href="#">奖助文化</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="w-[5px]"></div>
+                    <div class="w-[302px] mt-[11px] flex">
+                        <div class="mt-[10px] mr-[6px]"><a href="#"><img src="./images/02-4.png" alt=""></a></div>
+                        <div class="mt-[10px] mr-[6px]"><a href="#"><img src="./images/01-4.png" alt=""></a></div>
+                        <div class="mt-[10px] mr-[6px]"><a href="#"><img src="./images/03-4.png" alt=""></a></div>
+                        <div class="mt-[10px] mr-[6px]"><a href="#"><img src="./images/04-4.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="h-[277px] my-[20px] w-[1200px] mx-auto bg-blue-500">
+                   <img src="images/6947633544519.png" alt="">
+                </div>
+            </div>
+
+            <!-- wrap -->
+            <div class="h-[1809px] w-[1200px]  mx-auto">
+                <div class="h-[470px] flex justify-between">
+<!--                    左-->
+                    <div class=" w-[680px] relative  ">
+                        <div class="carousel-images w-[680px] h-[440px]">
+                            <div class="carousel-item absolute active">
+                                <img class="carousel-image w-[680px] h-[440px]" src="./_local/D/DB/34/E80400DA2B32F6283B68DCF679B_9476794F_1D471.jpg" alt="" >
+                                <div class="leading-[22px] text-center text-[#333333] hover:text-[#044F9F]"><a class="text-[17px]" href="#">西南联合研究生院2023年开学典礼暨院企合作沙龙举行</a> </div>
+                            </div>
+                            <div class="carousel-item absolute">
+                                <img class="carousel-image w-[680px] h-[440px]" src="./_local/C/D1/8E/6A60F5629E07D240C55B10A0D14_53304CCD_39B6E.jpg" alt="" >
+                                <div class="leading-[22px] text-center hidden text-[#333333] hover:text-[#044F9F]"><a class="text-[17px]" href="#">云南大学举行2023级新生开学典礼</a></div>
+                            </div>
+                            <div class="carousel-item absolute">
+                                <img class="carousel-image w-[680px] h-[440px] " src="./_local/F/F8/91/521812CCE0FE67FF817C6BBC700_0B772F88_266A1.jpg" alt="" >
+                                <div class="leading-[22px] text-center hidden text-[#333333] hover:text-[#044F9F]"><a class="text-[17px]" href="#">云南大学2023级本科学生军事技能训练总结大会举行</a></div>
+                            </div>
+                            <div class="carousel-item absolute">
+                                <img class="carousel-image w-[680px] h-[440px]" src="./_local/0/86/CF/5BCA63E66B30A923D286E4C0A0F_CF353920_1E767.jpg" alt="" >
+                                <div class="leading-[22px] text-center hidden text-[#333333] hover:text-[#044F9F]"><a class="text-[17px]" href="#">云南省教育部会商会、教育部直属高校在滇定点帮扶十周年座谈会在昆举行 云南省与教育部签署战略合作协议 王宁怀进鹏王予波出席会议并见证签约</a></div>
+                            </div>
+                        </div>
+
+
+
+
+<!--                        <div class="carousel-images w-[680px] h-[440px]">-->
+<!--                            <img class="carousel-image w-[680px] h-[440px] absolute active" src="./_local/D/DB/34/E80400DA2B32F6283B68DCF679B_9476794F_1D471.jpg" alt="" >-->
+<!--                            <img class="carousel-image w-[680px] h-[440px] absolute " src="./_local/C/D1/8E/6A60F5629E07D240C55B10A0D14_53304CCD_39B6E.jpg" alt="" >-->
+<!--                            <img class="carousel-image w-[680px] h-[440px] absolute " src="./_local/F/F8/91/521812CCE0FE67FF817C6BBC700_0B772F88_266A1.jpg" alt="" >-->
+<!--                            <img class="carousel-image w-[680px] h-[440px] absolute " src="./_local/0/86/CF/5BCA63E66B30A923D286E4C0A0F_CF353920_1E767.jpg" alt="" >-->
+<!--                        </div>-->
+<!--                        <div class="w-[680px] text-[#333333] text-[17px]">-->
+<!--                            <div class="leading-[22px] text-center">西南联合研究生院2023年开学典礼暨院企合作沙龙举行</div>-->
+<!--                            <div class="leading-[22px] text-center">云南大学2023级本科学生军事技能训练总结大会举行</div>-->
+<!--                            <div class="leading-[22px] text-center">云南大学2024级本科学生军事技能训练总结大会举行</div>-->
+<!--                            <div class="leading-[22px] text-center">云南大学2025级本科学生军事技能训练总结大会举行</div>-->
+
+<!--                        </div>-->
+                        <div class="absolute carousel-indicators bottom-[45px] right-[15px]">
+                            <div class="carousel-indicator w-[10px] h-[10px] rounded-full bg-white cursor-pointer transform transition-all duration-300 mx-[5px] float-left"></div>
+                            <div class="carousel-indicator w-[10px] h-[10px] rounded-full bg-white cursor-pointer transform transition-all duration-300 mx-[5px] float-left"></div>
+                            <div class="carousel-indicator w-[10px] h-[10px] rounded-full bg-white cursor-pointer transform transition-all duration-300 mx-[5px] float-left"></div>
+                            <div class="carousel-indicator w-[10px] h-[10px] rounded-full bg-white cursor-pointer transform transition-all duration-300 mx-[5px] float-left"></div>
+
+                        </div>
+                    </div>
+<!--                    右-->
+                    <div class="h-[443px] w-[470px]">
+                        <div class="h-[80px] flex justify-between">
+                            <a href="#"><img src="images/yndtbxlink01.jpg" alt=""  class="w-[150px] h-[80px]"></a>
+                            <a href="#"><img src="images/CPC20-SMALL-2.png" alt=""  class="w-[150px] h-[80px]"></a>
+                            <a href="#"><img src="images/weixintupian_20220520101952-1.jpg" alt=""  class="w-[150px] h-[80px]"></a>
+                        </div>
+                        <div class="h-[315px] mt-[10px] flex">
+                            <div class="h-[315px] w-[41px] flex items-center justify-center">
+                                <img src="images/yd.png" alt="" class="h-[164px] w-[32px]">
+                            </div>
+                            <div class="w-[429px]">
+                                <ul class="text-[17px] text-[#333333]">
+                                    <li class="block h-[35px] w-[419px] ml-[10px] whitespace-nowrap overflow-hidden text-ellipsis leading-[35px] font-bold text-[#ff0000]"><a href="#" title="习近平致信祝贺云南大学建校100周年">习近平致信祝贺云南大学建校100周年</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="孟加拉国达卡大学孔子学院2023年度理事会会议在云南大学召开">孟加拉国达卡大学孔子学院2023年度理事会会议在云南大学召开</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="云南省高校一流党建创建经验交流会议与会人员到云南大学观摩">云南省高校一流党建创建经验交流会议与会人员到云南大学观摩</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="生态与环境学院陈利顶团队在土壤抗生素对作物生产风险的多尺度景观调控方面取得重要进展">生态与环境学院陈利顶团队在土壤抗生素对作物生产风险的多尺度景观调控方面取得重要进展</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="校领导活动要览（2023年9月）">校领导活动要览（2023年9月）</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="云南省政协副主席李玛琳到云南大学调研">云南省政协副主席李玛琳到云南大学调研</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="云南省高等学校高质量发展三年行动计划推进暨本科教育教学工作会在昆召开">云南省高等学校高质量发展三年行动计划推进暨本科教育教学工作会在昆召开</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="香港新华集团客人到访云南大学">香港新华集团客人到访云南大学</a> </li>
+                                    <li class="block h-[35px] w-[419px] ml-[10px] hover:text-[#044F9F]  whitespace-nowrap overflow-hidden text-ellipsis leading-[35px]"><a href="#" title="于黎研究员、胡靖扬助理研究员在PNAS上报道穿山甲新物种的重要发现">于黎研究员、胡靖扬助理研究员在PNAS上报道穿山甲新物种的重要发现</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[470px] h-[32px] mt-[6px] flex">
+                            <div class="w-[160px]"></div>
+                            <div class="block h-[32px] w-[150px]"><a  href=""> <img src="images/more1.png" alt="" class="h-[32px] w-[150px]"></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="h-[522px] my-[30px] flex justify-between">
+<!--                    左-->
+                    <div class="w-[680px] ">
+                        <div class="w-[680px] h-[50px] border-b-[4px] border-b-[#CCCCCC] flex justify-between relative">
+                            <div class="text-[24px] mb-[-4px] font-bold border-b-[4px] border-b-[#085B94]">教学 · 科研</div>
+                            <div class="w-0 h-0 border-[8px] top-[32px] left-[52px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute"></div>
+                            <div class="h-[50px] text-[16px] leading-[50px] text-[#333333]"><a href="#"> 更多 >> </a></div>
+                        </div>
+                        <div class="w-[680px] h-[455px] mt-[12px]">
+                                <ul>
+                                    <li class=" text-[#FF0000] text-[17px] font-bold leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【招聘】云南大学诚聘海内外优秀人才">【招聘】云南大学诚聘海内外优秀人才</a>
+                                        <span class="block h-[35px]"><a href="#">2022-01-28</a></span>
+                                    </li>
+                                    <li class=" text-[#FF0000] text-[17px] font-bold leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【招聘】云南大学2023年公开招聘教学科研人员公告">【招聘】云南大学2023年公开招聘教学科研人员公告</a>
+                                        <span class="block h-[35px]"><a href="#">2023-06-12</a></span>
+                                    </li>
+                                    <li class=" text-[#333333]  hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="云南大学联合承办第四届“一带一路”国家教育论坛">云南大学联合承办第四届“一带一路”国家教育论坛</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-17</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="云南大学生态学科举办第一届青年生态学论坛">云南大学生态学科举办第一届青年生态学论坛</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-17</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="2023年中国政府非税收入管理年会在云南大学召开">2023年中国政府非税收入管理年会在云南大学召开</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-17</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="孙和平院士做客东陆高端学术论坛">孙和平院士做客东陆高端学术论坛</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-17</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="农业农村部种植业司调研云南大学多年生稻试验示范工作">农业农村部种植业司调研云南大学多年生稻试验示范工作</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-13</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="孟加拉国南北大学孔子学院2023年度理事会会议在云南大学召开">孟加拉国南北大学孔子学院2023年度理事会会议在云南大学召开</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-13</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="陈剑平院士做客东陆高端学术论坛">陈剑平院士做客东陆高端学术论坛</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-12</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="商旅学院在第十四届“全国百篇优秀管理案例”评选中再创佳绩">商旅学院在第十四届“全国百篇优秀管理案例”评选中再创佳绩</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-11</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="生态与环境学院陈利顶团队在土壤抗生素对作物生产风险的多尺度景观调控方面取得重要进展">生态与环境学院陈利顶团队在土壤抗生素对作物生产风险的多尺度景观调控方面取得重要进展</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-08</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="云大学子在第十八届“挑战杯”“揭榜挂帅”专项赛中获佳绩">云大学子在第十八届“挑战杯”“揭榜挂帅”专项赛中获佳绩</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-07</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="材料与能源学院彭智利副研究员在碳点基荧光粉研究方向取得系列进展">材料与能源学院彭智利副研究员在碳点基荧光粉研究方向取得系列进展</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-07</a> </span>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+<!--                    右-->
+                    <div class="w-[470px]">
+                        <div class="w-[470px] h-[50px] mb-[25px] border-b-[4px] border-b-[#CCCCCC] flex justify-between relative">
+                            <div class="text-[24px]  mb-[-4px] font-bold border-b-[4px] border-b-[#085B94] ">校园快讯</div>
+                            <div class="w-0 h-0 border-[8px] top-[32px] left-[40px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute"></div>
+                            <div class="h-[50px] text-[16px] leading-[50px] text-[#333333]"><a href="#"> 更多 >> </a></div>
+                        </div>
+                        <div class="w-[470px] mx-[-5px]">
+                            <div class="w-[480px] mx[-5px]">
+                                <ul class="flex justify-between text-[#333333]  leading-[20px]">
+                                    <li class="w-[235px] mr-[10px] h-[187px] hover:text-[#044F9F]">
+                                        <a href="#">
+                                            <div class="h-[127px] w-[235px]"><img src="./_local/4/08/F0/9293766046EF38154AA8C4E8CE2_4ADE1F6B_20875.jpg" alt="" class="h-[127px] w-[235px]"></div>
+                                            <div class="h-[60px] w-[235px] bg-[#E4EDF4] p-[10px]">云南大学2023年学生社团招新暨社团风采展圆满举办</div>
+                                        </a>
+                                    </li>
+                                    <li class="w-[235px] h-[187px] bg-green-500 hover:text-[#044F9F]">
+                                        <a  href="#">
+                                            <div class="h-[127px] w-[235px]"><img src="_local/6/C0/C3/16EBB8C2B96CD0960E4B36E0EBE_C923FF3E_1BC28.jpg" alt="" class="h-[127px] w-[235px]"></div>
+                                            <div class="h-[60px] w-[235px] bg-[#E4EDF4] p-[10px]">西南联合研究生院2023年开学典礼视频</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-[470px] h-[245px] mt-[10px]">
+                            <ul>
+                                <li class=" text-[#FF0000] text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="面向广大团员和青年开展学习贯彻习近平新时代中国特色社会主义思想主题教育学习平台">面向广大团员和青年开展学习贯彻习近平新时代中国特色社会主义思想主题教育学习平台</a>
+                                </li>
+                                <li class=" text-[#333333] hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="云南大学举行2023年度新进教职工岗前培训">云南大学举行2023年度新进教职工岗前培训</a>
+                                </li>
+                                <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="云南大学开展2023年下半年入伍新兵回访工作">云南大学开展2023年下半年入伍新兵回访工作</a>
+                                </li>
+                                <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="校工会举办教职工扑克牌比赛">校工会举办教职工扑克牌比赛</a>
+                                </li>
+                                <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="云南大学团委在“团中央高校共青团改革沙龙”作经验交流">云南大学团委在“团中央高校共青团改革沙龙”作经验交流</a>
+                                </li>
+                                <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="民革云南省委到云南大学调研">民革云南省委到云南大学调研</a>
+                                </li>
+                                <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                    <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="铸牢中华民族共同体意识云南实践研究基地召开第一次座谈会">铸牢中华民族共同体意识云南实践研究基地召开第一次座谈会</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="h-[324px] flex justify-between">
+                    <div class="w-[680px]">
+                        <div class="w-[680px] ">
+                            <div class="w-[680px] h-[50px]  border-b-[4px] border-b-[#CCCCCC] flex justify-between relative">
+                                <div class="text-[24px]  mb-[-4px] font-bold border-b-[4px] border-b-[#085B94] ">媒体云大</div>
+                                <div class="w-0 h-0 border-[8px] top-[32px] left-[40px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute"></div>
+                                <div class="h-[50px] text-[16px] leading-[50px] text-[#333333]"><a href="#"> 更多 >> </a></div>
+                            </div>
+                            <div class="w-[680px] h-[455px] mt-[25px]">
+                                <ul>
+                                    <li class=" text-[#FF0000] text-[17px] font-bold leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【新华社】习近平致信祝贺云南大学建校100周年">【新华社】习近平致信祝贺云南大学建校100周年</a>
+                                        <span class="block h-[35px]"><a href="#">2023-04-20</a></span>
+                                    </li>
+                                    <li class=" text-[#FF0000] text-[17px] font-bold leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【新闻联播】习近平致信祝贺云南大学建校100周年">【新闻联播】习近平致信祝贺云南大学建校100周年</a>
+                                        <span class="block h-[35px]"><a href="#">2023-04-20</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【央视新闻直播间】丝路画卷·青年说 老挝青年闻鹏宇：中老铁路 我的“圆梦之旅”">【央视新闻直播间】丝路画卷·青年说 老挝青年闻鹏宇：中老铁路 我的“圆梦之旅”</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-13</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【新华社】拍张CT，看一下5亿多年前的化石长啥样！">【新华社】拍张CT，看一下5亿多年前的化石长啥样！</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-12</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【云南日报】云南大学多年生稻科技小院把课堂搬到田间">【云南日报】云南大学多年生稻科技小院把课堂搬到田间</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-12</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【央广总台】高原帆船队亮相“远东杯”国际帆船赛">【央广总台】高原帆船队亮相“远东杯”国际帆船赛</a>
+                                        <span class="block h-[35px]"><a href="#">2023-10-09</a></span>
+                                    </li>
+                                    <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px] flex justify-between">
+                                        <a class="block w-[540px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【光明少年】段昌群：踏遍云南，只为水清山秀天更蓝">【光明少年】段昌群：踏遍云南，只为水清山秀天更蓝</a>
+                                        <span class="block h-[35px]"><a href="#">2023-09-01</a> </span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group w-[470px]">
+                        <div class="w-[470px] h-[50px] mb-[25px] border-b-[4px] border-b-[#CCCCCC] flex  ">
+                            <div class="hd-item cursor-pointer text-[24px]  mb-[-4px] font-bold border-b-[4px] border-b-[#085B94] mr-[20px]  relative" data-item="1" tabindex="0">
+                                师生风采
+                                <div class="cd-item cursor-pointer w-0 h-0 border-[8px] top-[32px] left-[40px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute" data-item="1"></div>
+                            </div>
+
+                            <div class="hd-item cursor-pointer text-[24px]  mb-[-4px] font-bold border-b-[4px] border-b-[#CCCCCC] mr-[20px] relative" data-item="2" tabindex="0">
+                                影像校园
+                                <div class="cd-item cursor-pointer w-0 h-0 border-[8px] top-[32px] left-[40px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute hidden" data-item="2"></div>
+                            </div>
+<!--                                <div class="w-0 h-0 border-[8px] top-[32px] left-[156px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute"></div>-->
+                            <div class="hd-item cursor-pointer text-[24px]  mb-[-4px] font-bold border-b-[4px] border-b-[#CCCCCC] relative" data-item="3" tabindex="0">
+                                历史记忆
+                                <div class="cd-item cursor-pointer w-0 h-0 border-[8px] top-[32px] left-[40px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute hidden" data-item="3"></div>
+                            </div>
+<!--                                <div class=" w-0 h-0 border-[8px] top-[32px] left-[274px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute"></div>-->
+                       </div>
+                            <div class="w-[470px] h-[245px]">
+                                <div class="bd-item cursor-pointer w-[470px] h-[245px] absolute" data-item="1">
+                                    <ul>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【心之所系在云大】方慧教授">【心之所系在云大】方慧教授</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【您好，教授】唐年胜老师的统计学">【您好，教授】唐年胜老师的统计学</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【您好，教授】柳清菊老师的材料学">【您好，教授】柳清菊老师的材料学</a>
+                                        </li>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【您好，教授】张力老师的天文学">【您好，教授】张力老师的天文学</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【人物】国家形象网宣片《PRC》中的云大学子">【人物】国家形象网宣片《PRC》中的云大学子</a>
+                                        </li>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【视频】在国家形象网宣片《PRC》中看见云大">【视频】在国家形象网宣片《PRC》中看见云大</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【您好，教授】于黎老师的进化生物学世界">【您好，教授】于黎老师的进化生物学世界</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="bd-item cursor-pointer w-[470px] h-[245px] absolute hidden" data-item="2">
+                                    <ul>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【摄影】四时读书好，探研境界更无垠">【摄影】四时读书好，探研境界更无垠</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【摄影】星轨｜于云大深夜邂逅浪漫">【摄影】星轨｜于云大深夜邂逅浪漫</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="">【摄影】花开云大 春意盎然</a>
+                                        </li>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="">【摄影】云大之春|花季已至</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="》">【摄影】万花筒 | 遇见万花世界中的云大</a>
+                                        </li>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="">【摄影】探寻 | 一叶知“云”</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【摄影】云大限定配饰集get√">【摄影】云大限定配饰集get√</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="bd-item cursor-pointer w-[470px] h-[245px] absolute hidden" data-item="3">
+                                    <ul>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【故事】陈琳教授回忆东陆园爱因斯坦雕像纪念碑背后的故事">【【故事】陈琳教授回忆东陆园爱因斯坦雕像纪念碑背后的故事</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【故事】是谁闯进了“一大”会场？">【故事】是谁闯进了“一大”会场？</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="【人物】陈景院士：应学卧薪尝胆，切莫怀安丧志">【人物】陈景院士：应学卧薪尝胆，切莫怀安丧志</a>
+                                        </li>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="《朗读云大》第3期——首任校长董泽先生">《朗读云大》第3期——首任校长董泽先生</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="《朗读云大》第2期 —“状元教授”袁嘉谷">《朗读云大》第2期 —“状元教授”袁嘉谷</a>
+                                        </li>
+                                        <li class=" text-[#333333]  hover:text-[#044F9F] text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="《朗读云大》第1期 —熊庆来先生">《朗读云大》第1期 —熊庆来先生</a>
+                                        </li>
+                                        <li class=" text-[#333333] hover:text-[#044F9F]  text-[17px] leading-[35px]">
+                                            <a class="block w-[470px] h-[35px]  whitespace-nowrap overflow-hidden text-ellipsis" href="#" title="校庆 | 九十七载云大 | 追求卓越的雄心壮志从未止步">校庆 | 九十七载云大 | 追求卓越的雄心壮志从未止步</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                <div class="h-[400px] pt-[20px] px-[20px] pb-[5px] border-[1px] mt-[30px] bg-white">
+                    <div class="h-[50px] mb-[20px] border-b-[4px] border-b-[#F6F6F6] flex justify-between relative">
+                        <div class="text-[18px]  mb-[-4px] font-bold border-b-[4px] border-b-[#085B94] leading-[50px] mx-[15px]"><a href="#">通知公告</a></div>
+                        <div class="w-0 h-0 border-[7px] top-[34px] left-[44px] border-[#085B94] border-r-transparent border-t-transparent border-l-transparent absolute"></div>
+                        <div class="h-[50px] text-[17px] leading-[50px] text-[#333333]"><a href="#"> 更多 >> </a></div>
+                    </div>
+                    <div class="h-[288px]">
+                        <div class="h-[140px] mx-[-30px] flex justify-between flex-wrap">
+                            <ul class="flex flex-wrap text-[17px] text-[#333333]">
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px  hover:text-[#044F9F] flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px] whitespace-nowrap overflow-hidden text-ellipsis">通过企业微信认证登录“云大一卡通”微信小程序使用说明</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#">2023-09-04</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px hover:text-[#044F9F] flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px]   whitespace-nowrap overflow-hidden text-ellipsis">2023年云南省保密教育实训平台云南大学志愿者招募公告</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#">2023-09-01</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px hover:text-[#044F9F] flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px]   whitespace-nowrap overflow-hidden text-ellipsis">基于企业微信的移动教学服务应用</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#"> 2023-08-24</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px  hover:text-[#044F9F] flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px]  whitespace-nowrap overflow-hidden text-ellipsis">云南大学关于公布医药领域腐败问题集中整治举报方式的公告</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#">2023-08-17</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px  hover:text-[#044F9F] flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px]  whitespace-nowrap overflow-hidden text-ellipsis">后勤服务集团关于2023年暑假保障服务工作安排的通知</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#">2023-07-07</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px  hover:text-[#044F9F] flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px]  whitespace-nowrap overflow-hidden text-ellipsis">电子邮件系统升级通知</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#">2023-05-31</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px  hover:text-[#044F9F]  flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px] whitespace-nowrap overflow-hidden text-ellipsis">关于开展“人人话保密”微视频征集评选活动的通知</a>
+                                        <span class="block h-[35px] w-[100px] leading-[35px]"><a href="#">2023-03-15</a></span>
+                                    </div>
+                                </li>
+                                <li class="w-[578px] h-[35px]  flex">
+                                    <div class="w-520px hover:text-[#044F9F]  flex justify-between mx-auto">
+                                        <a href="#" class="block h-[35px] w-[410px] leading-[35px]   whitespace-nowrap overflow-hidden text-ellipsis">后勤服务集团关于2023年寒假保障服务工作安排的通知</a>
+                                        <span class="block h-[35px] w-[100px] group-hover:text-[#044F9F]  leading-[35px]"> <a href="#">2023-01-04</a></span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="h-[126px] my-[20px] mx-[-10px] border-[1px] shadow flex justify-between">
+                            <div class="block h-[102px] w-[50px] mt-[10px]  ml-[20px] border-r-[3px] border-r-[#ECF7FC] leading-[34px]">网上办公服务</div>
+                            <div class="flex w-[1100px] justify-between text-[14px]">
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon1.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon1-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">云大邮箱</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon2.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon2-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">信息化服务</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon3.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon3-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">图书馆</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon4.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon4-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">财务管理</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon5.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon5-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">科研创新服务平台</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon6.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon6-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">文科科研管理系统</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                    <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon7.png')"></div>
+                                        <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon7-on.png')"></div>
+                                        <div class="w-3/4 text-center mt-[70px]">资产业务</div>
+                                    </a>
+                                </div>
+                                <div class="group block text-[#333333] w-[116px] h-[124px] py-[5px] mx=[10px] bg-white hover:bg-[#3399CC] hover:text-white">
+                                <a class="block flex items-center flex-wrap justify-evenly relative" href="#">
+                                    <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-10 group-hover:opacity-0" style="background-image: url('./images/r4-icon8.png')"></div>
+                                    <div class="w-[50px] h-[50px] my-[10px] bg-cover bg-center bg-no-repeat absolute top-[2px] z-0" style="background-image: url('./images/r4-icon8-on.png')"></div>
+                                    <div class="w-3/4 text-center mt-[70px]">全媒体采编系统</div>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="h-[216px] mt-[25px] w-[1200px] mx-auto flex justify-between">
+                <div class="w-[530px] ">
+                    <div class="h-[122px] w-[530px]  text-[17px] flex">
+                        <div class="w-[90px] mr-[50px] ">
+                            <img src="images/qr.png" alt="">
+                            <div class="mt-[10px] h-[22px] leading-[22px] text-center">官方微博</div>
+                        </div>
+                        <div class="w-[90px] mr-[50px] ">
+                            <img src="images/qr.png" alt="">
+                            <div class="mt-[10px] h-[22px] leading-[22px] text-center">微信公众号</div>
+                        </div>
+                        <div class="w-[250px] ">
+                            <a class="block mt-[4px]" href="#"><img src="images/rsc.png" alt=""></a>
+                            <div class="h-[19px]"></div>
+                            <a class="block mb-[4px]" href="#"><img src="images/fp2.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[500px] ">
+                    <div class="w-full h-[90px]  text-[16px] text-[#000000] flex">
+                        <div class="w-[225px] ml-[25px]">
+                            <p class="font-bold block h-[30px] leading-[30px]">东陆校区</p>
+                            <p class="block h-[30px] leading-[30px]">昆明市五华区</p>
+                            <p class="block h-[30px] leading-[30px]">翠湖北路2号</p>
+                        </div>
+                        <div class="w-[225px] ml-[25px]">
+                            <p class="font-bold">呈贡校区</p>
+                            <p class="block h-[30px] leading-[30px]">昆明市呈贡区</p>
+                            <p class="block h-[30px] leading-[30px]">大学城东外环南路</p>
+                        </div>
+
+                    </div>
+                    <div class="w-full h-[116px] mt-[10px]  text-[12px] text-center">
+                        <p class="block h-[29px] leading-[29px]">Copyright © 2004- 2023 云南大学 Yunnan University</p>
+                        <p class="block h-[29px] leading-[29px]">东陆校区：昆明市五华区翠湖北路2号 邮编：650091</p>
+                        <p class="block h-[29px] leading-[29px]">呈贡校区：昆明市呈贡区大学城东外环南路 邮编：650500 </p>
+                        <p class="block h-[29px] text-[15px] text-[#333333] leading-[29px]">ICP备案号：<a href="#">滇ICP备12004993号-2</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
